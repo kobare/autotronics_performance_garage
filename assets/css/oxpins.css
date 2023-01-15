@@ -28,9 +28,10 @@
   --oxpins-gray-rgb: 111, 119, 117;
   --oxpins-white: #ffffff;
   --oxpins-white-rgb: 255, 255, 255;
-  --oxpins-base: #00715d;
+  --oxpins-base: #101010;
   --oxpins-base-rgb: 0, 113, 93;
-  --oxpins-black: #283734;
+  --oxpins-black: #1e1e1e;
+  --xxoxpins-black: #283734;
   --oxpins-black-rgb: 40, 55, 52;
   --oxpins-primary: #ec7063;
   --oxpins-primary-rgb: 251, 212, 90;
@@ -2827,7 +2828,7 @@ body.locked .page-wrapper {
 
 .main-slider-three .swiper-slide {
   position: relative;
-  background-color: #212d2b;
+  background-color: #101010;
 }
 
 .main-slider-three .container {
@@ -3321,6 +3322,10 @@ body.locked .page-wrapper {
   line-height: 18px;
   font-family: var(--oxpins-font-three);
   font-weight: 700;
+}
+
+.causes-one__cat p a {
+  color: var(--oxpins-white);
 }
 
 .causes-one__content {
@@ -5259,7 +5264,7 @@ body.locked .page-wrapper {
   justify-content: center;
   text-align: center;
   color: var(--oxpins-white);
-  background-color: #212d2b;
+  background-color: #101010;
   font-size: 15px;
   border-radius: 50%;
   overflow: hidden;
@@ -5312,7 +5317,7 @@ body.locked .page-wrapper {
 .site-footer__bottom {
   position: relative;
   display: block;
-  background-color: #212d2b;
+  background-color: #101010;
 }
 
 .site-footer__bottom-inner {
@@ -10476,7 +10481,7 @@ body.locked .page-wrapper {
   border-radius: var(--oxpins-bdr-radius);
   content: "";
   background: rgb(250, 211, 91);
-  background: linear-gradient(180deg, rgba(250, 211, 91, 0.09287464985994398) 53%, rgba(250, 211, 91, 1) 100%);
+  background: linear-gradient(180deg, rgba(205, 48, 32, 0.09287464985994398) 53%, rgba(205, 48, 32, 1) 100%);
   -webkit-transition: all 700ms ease;
   -ms-transition: all 700ms ease;
   -o-transition: all 700ms ease;
