@@ -5,6 +5,39 @@
 layout: home
 ---
 
+<style>
+
+.main-slider-three__content {
+  display: none;
+  height: 1080px !important;
+}
+
+.swiper-slide {
+  height: 100vh;
+}
+
+@media only screen and (orientation:portrait){
+  
+  .main-slider-three__sub-title, .main-slider-three__title, .main-slider-three__content {
+    display: none;
+    /* font-size: clamp(2rem, 4vw + 1rem, 3rem); */
+  }
+
+  .about-three {
+    padding-top: 0;
+  }
+  
+  .main-slider-three__btn-box {
+    margin-top: 100px;
+  }
+  
+  .swiper-slide {
+    height: auto;
+  }
+  
+}
+</style>
+
 <!DOCTYPE html>
 <html lang="en">
 
@@ -33,7 +66,7 @@ layout: home
 
         <!--Main Slider Start-->
         <section class="main-slider-three clearfix">
-            <div style="height: 900px" class="swiper-container thm-swiper__slider" data-swiper-options='{"slidesPerView": 1, "loop": true,
+            <div xstyle="height: 900px" class="swiper-container thm-swiper__slider" data-swiper-options='{"slidesPerView": 1, "loop": true,
                 "effect": "fade",
                 "pagination": {
                 "el": "#main-slider-pagination",
@@ -50,7 +83,7 @@ layout: home
                 <div class="swiper-wrapper">
 
                     <div class="swiper-slide">
-                        <div class="image-layer-three"
+                        <div class="image-layer-three image-1"
                             style="background-image: url(assets/img/backgrounds/bg-01.jpg);"></div>
                         <!-- /.image-layer -->
                         <div class="main-slider-three-color"></div>
