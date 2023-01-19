@@ -19,10 +19,13 @@
 --------------------------------------------------------------*/
 
 @import url('https://fonts.googleapis.com/css2?family=Marcellus&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Graduate&family=M+PLUS+Rounded+1c:wght@300&display=swap');
+
 :root {
+  --oxpins-title-font: 'Graduate', serif;
   --oxpins-font: 'Manrope', sans-serif;
   --xxoxpins-font-two: 'Nunito', sans-serif;
-  --oxpins-font-two: 'Marcellus', serif;
+  --oxpins-font-two: 'M PLUS Rounded 1c', serif;
   --oxpins-font-three: 'Caveat', cursive;
   --oxpins-gray: #6f7775;
   --oxpins-gray-rgb: 111, 119, 117;
@@ -2055,7 +2058,20 @@ ul {
 
 .main-menu-three__right {
   display: block;
+  padding-right: 15px;
 }
+
+@media only screen and (orientation:landscape){
+
+  .main-menu-three__right {
+    margin: auto; 
+    padding: 5px 0 5px 0;
+  }
+
+  .main-menu-three__left {
+    padding: 5px 0 5px 35px;
+  }
+} 
 
 .main-menu-three__right-inner {
   display: flex;
@@ -2891,41 +2907,42 @@ body.locked .page-wrapper {
 }
 
 .main-slider-three__sub-title {
-  font-size: 20px;
+  font-size: 40px;
+  font-family: var(--oxpins-title-font);
   color: var(--oxpins-primary);
-  font-weight: 600;
+  font-weight: 900;
   line-height: 30px;
   opacity: 0;
   visibility: hidden;
-  -webkit-transform: translateY(-120px);
-  transform: translateY(-120px);
-  -webkit-transition-delay: 1000ms;
-  transition-delay: 1000ms;
-  -webkit-transition: opacity 2000ms ease, -webkit-transform 2000ms ease;
-  transition: opacity 2000ms ease, -webkit-transform 2000ms ease;
-  transition: transform 2000ms ease, opacity 2000ms ease;
-  transition: transform 2000ms ease, opacity 2000ms ease, -webkit-transform 2000ms ease;
+  xx-webkit-transform: translateY(-120px);
+  xxtransform: translateY(-120px);
+  xx-webkit-transition-delay: 1000ms;
+  xxtransition-delay: 1000ms;
+  xx-webkit-transition: opacity 2000ms ease, -webkit-transform 2000ms ease;
+  xxtransition: opacity 2000ms ease, -webkit-transform 2000ms ease;
+  xxtransition: transform 2000ms ease, opacity 2000ms ease;
+  xxtransition: transform 2000ms ease, opacity 2000ms ease, -webkit-transform 2000ms ease;
 }
 
 .main-slider-three__title {
   position: relative;
-  font-size: 90px;
+  font-size: 25px;
   color: var(--oxpins-white);
   font-weight: 900;
-  line-height: 110px;
+  xline-height: 110px;
   letter-spacing: -0.04em;
   margin-top: 14px;
   margin-bottom: 25px;
   opacity: 0;
   visibility: hidden;
-  -webkit-transform: translateY(-120px);
-  transform: translateY(-120px);
-  -webkit-transition-delay: 1000ms;
-  transition-delay: 1000ms;
-  -webkit-transition: opacity 2000ms ease, -webkit-transform 2000ms ease;
-  transition: opacity 2000ms ease, -webkit-transform 2000ms ease;
-  transition: transform 2000ms ease, opacity 2000ms ease;
-  transition: transform 2000ms ease, opacity 2000ms ease, -webkit-transform 2000ms ease;
+  xx-webkit-transform: translateY(-120px);
+  xxtransform: translateY(-120px);
+  xx-webkit-transition-delay: 1000ms;
+  xxtransition-delay: 1000ms;
+  xx-webkit-transition: opacity 2000ms ease, -webkit-transform 2000ms ease;
+  xxtransition: opacity 2000ms ease, -webkit-transform 2000ms ease;
+  xxtransition: transform 2000ms ease, opacity 2000ms ease;
+  xxtransition: transform 2000ms ease, opacity 2000ms ease, -webkit-transform 2000ms ease;
 }
 
 .main-slider-three__btn-box {
@@ -3983,13 +4000,14 @@ body.locked .page-wrapper {
   position: relative;
   display: block;
   border-top: 1px solid var(--oxpins-bdr-color);
-  padding: 20px 0 20px;
+  padding: 10px 0 0px;
+  height: 100px;
 }
 
 .brand-one .swiper-slide {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
+  xdisplay: -webkit-box;
+  xdisplay: -ms-flexbox;
+  xdisplay: flex;
   -webkit-box-align: center;
   -ms-flex-align: center;
   align-items: center;
