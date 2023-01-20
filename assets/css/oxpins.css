@@ -2927,6 +2927,7 @@ body.locked .page-wrapper {
 .main-slider-three__title {
   position: relative;
   font-size: 25px;
+  text-transform: capitalize;
   color: var(--oxpins-white);
   font-weight: 900;
   xline-height: 110px;
@@ -3996,11 +3997,28 @@ body.locked .page-wrapper {
 /*--------------------------------------------------------------
 # Brand One
 --------------------------------------------------------------*/
+
+@media only screen and (orientation:portrait){
+
+  .brand-one {
+    position: relative;
+    display: block;
+    border-top: 1px solid var(--oxpins-bdr-color);
+    padding: 0px 0 110px 0 !important;
+    height: 100px;
+  }
+
+  .xswiper-container {
+    height: 900px;
+  }
+}
+
+
 .brand-one {
   position: relative;
   display: block;
   border-top: 1px solid var(--oxpins-bdr-color);
-  padding: 10px 0 0px;
+  padding: 10px 0 0;
   height: 100px;
 }
 
@@ -6619,6 +6637,7 @@ body.locked .page-wrapper {
   position: relative;
   display: block;
   padding-left: 65px;
+  padding-bottom: 30px;
 }
 
 .contact-one__single:before {
@@ -10858,7 +10877,7 @@ body.locked .page-wrapper {
 }
 
 .contact-three .container {
-  max-width: 770px;
+  xxmax-width: 770px;
 }
 
 .contact-page__form-box {
