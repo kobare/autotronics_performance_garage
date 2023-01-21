@@ -1263,7 +1263,7 @@ ul {
   padding-bottom: 30px;
   padding-left: 15px;
   padding-right: 15px;
-  xopacity: 0;
+  opacity: 0;
   visibility: hidden;
   -webkit-transform: translateY(-100%);
   transform: translateY(-100%);
@@ -2287,7 +2287,7 @@ ul {
 .stricky-header.main-menu-three .main-menu__list>li.current-menu-page>a,
 .stricky-header.main-menu-three .main-menu__list>li.current_page_item>a,
 .stricky-header.main-menu-three .main-menu__list>li:hover>a {
-  color: #fff;
+  color: var(--oxpins-primary);
 }
 
 .main-menu-three .main-menu__list>li,
