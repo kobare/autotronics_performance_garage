@@ -1263,7 +1263,7 @@ ul {
   padding-bottom: 30px;
   padding-left: 15px;
   padding-right: 15px;
-  opacity: 0;
+  xopacity: 0;
   visibility: hidden;
   -webkit-transform: translateY(-100%);
   transform: translateY(-100%);
@@ -2272,7 +2272,7 @@ ul {
 
 .main-menu-three .main-menu__list>li>a,
 .stricky-header.main-menu-three .main-menu__list>li>a {
-  color: #8c9c99;
+  color: #fff;
 }
 
 .main-menu-three .main-menu__list>li.current>a,
@@ -2287,7 +2287,7 @@ ul {
 .stricky-header.main-menu-three .main-menu__list>li.current-menu-page>a,
 .stricky-header.main-menu-three .main-menu__list>li.current_page_item>a,
 .stricky-header.main-menu-three .main-menu__list>li:hover>a {
-  color: var(--oxpins-white);
+  color: #fff;
 }
 
 .main-menu-three .main-menu__list>li,
